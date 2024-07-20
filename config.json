@@ -42,6 +42,16 @@
       ]
     },
     {
+      "name": "BNB Chain Testnet",
+      "rpcurl": "https://data-seed-prebsc-1-s1.bnbchain.org:8545",
+      "native_token_symbol": "tBNB",
+      "oracle_token": "0x84b9B910527Ad5C03A9Ca831909E21e236EA7b06",
+      "erc20s": [
+        "0xbFA2ACd33ED6EEc0ed3Cc06bF1ac38d22b36B9e9",
+        "0x64544969ed7EBf5f083679233325356EbE738930"
+      ]
+    },
+    {
       "name": "XDC Apothem",
       "rpcurl": "https://erpc.apothem.network",
       "native_token_symbol": "XDC",
