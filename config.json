@@ -1,0 +1,99 @@
+{
+  "privatekey": "YOUR_WALLET_PRIVATE_KEY",
+  "chain": [
+    {
+      "name": "Avalanche Fuji",
+      "rpcurl": "https://api.avax-test.network/ext/bc/C/rpc",
+      "native_token_symbol": "AVAX",
+      "oracle_token": "0x0b9d5D9136855f6FEc3c0993feE6E9CE8a297846",
+      "erc20s": [
+        "0xD21341536c5cF5EB1bcb58f6723cE26e8D8E90e4",
+        "0x5425890298aed601595a70AB815c96711a31Bc65"
+      ]
+    },
+    {
+      "name": "Ethereum Sepolia",
+      "rpcurl": "https://rpc.sepolia.org",
+      "native_token_symbol": "SEP",
+      "oracle_token": "0x779877A7B0D9E8603169DdbD7836e478b4624789",
+      "erc20s": [
+        "0xFd57b4ddBf88a4e07fF4e34C487b99af2Fe82a05",
+        "0x1c7D4B196Cb0C7B01d743Fbc6116a902379C7238"
+      ]
+    },
+    {
+      "name": "Polygon Amoy",
+      "rpcurl": "https://rpc-amoy.polygon.technology/",
+      "native_token_symbol": "MATIC",
+      "oracle_token": "0x0Fd9e8d3aF1aaee056EB9e802c3A762a667b1904",
+      "erc20s": [
+        "0xcab0EF91Bee323d1A617c0a027eE753aFd6997E4",
+        "0x41E94Eb019C0762f9Bfcf9Fb1E58725BfB0e7582"
+      ]
+    },
+    {
+      "name": "Arbitrum Sepolia",
+      "rpcurl": "https://sepolia-rollup.arbitrum.io/rpc",
+      "native_token_symbol": "ETH",
+      "oracle_token": "0xb1D4538B4571d411F07960EF2838Ce337FE1E80E",
+      "erc20s": [
+        "0xA8C0c11bf64AF62CDCA6f93D3769B88BdD7cb93D",
+        "0x75faf114eafb1BDbe2F0316DF893fd58CE46AA4d"
+      ]
+    },
+    {
+      "name": "XDC Apothem",
+      "rpcurl": "https://erpc.apothem.network",
+      "native_token_symbol": "XDC",
+      "oracle_token": "0x33f4212b027E22aF7e6BA21Fc572843C0D701CD1",
+      "erc20s": []
+    }
+  ],
+  "abi": [
+    {
+      "inputs": [
+        {
+          "internalType": "address",
+          "name": "owner",
+          "type": "address"
+        }
+      ],
+      "name": "balanceOf",
+      "outputs": [
+        {
+          "internalType": "uint256",
+          "name": "balance",
+          "type": "uint256"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "decimals",
+      "outputs": [
+        {
+          "internalType": "uint8",
+          "name": "decimalPlaces",
+          "type": "uint8"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "symbol",
+      "outputs": [
+        {
+          "internalType": "string",
+          "name": "tokenSymbol",
+          "type": "string"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    }
+  ]
+}
